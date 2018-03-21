@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    background-color: #EBEBEB;
+}
+
+@media (min-width: 768px) {
+    main,
+    main > .row,
+    main > .row > nav#menu-principal,
+    main > .row > div#conteudo {
+        height: 100%;
+    }
+}
